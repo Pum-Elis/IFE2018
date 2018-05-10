@@ -1,0 +1,48 @@
+body{
+    border: 1px solid gray; 
+    height: 823px;
+}
+.content{
+    width: 100%;
+    clear: both;
+    border-bottom: 1px solid gray;
+}
+h1{
+    margin: 0px;
+    height: 50px;
+    padding: 10px;/*避免“简历”两个字紧贴边框*/
+    background-color: dimgray;
+    color: white;  
+}
+.content_2{
+    height: 25%;
+}
+span{
+    text-align: center;/*只设置这个属性无法实现完全居中*/
+    line-height: 150px;/*将行高直接设置为容器的高度，可以实现垂直居中 */
+    width: 15%;
+    height: 150px;
+    clear: both;
+    float: left; 
+    font-size: 25px;
+    background-color: gray; 
+    border-bottom: 1px solid white;/*下边框*/
+}
+
+table{
+    width: 85%;
+    height: 150px;
+    float: left;
+    border-bottom: 1px solid grey;
+}
+.cla{
+    font-weight: 800;
+    font-size: 18px;
+}
+
+a{
+    color: dodgerblue;
+    text-decoration: underline;/*链接设置下划线（因为没有具体的链接，所以要设置）*/
+}
+
+

@@ -1,0 +1,40 @@
+body{
+    height: 800px;
+}
+#header{
+    float: left;
+    width: 150px;
+    height: 100%;
+    background-color: cornflowerblue;
+    text-align: center;
+    margin: 0px 20px 20px 0px;
+    padding: 40px 0px 0px 0px;
+    color: white;
+}
+
+#content{
+    padding: 25px 0px;
+    /*使内容区域在竖直方向上居中（使用vertical-align和margin都不行,暂时没想到更好的）*/ 
+}
+span{
+    font-size: 25px;
+}
+table{
+    margin: 20px 0px;
+}
+.cla{
+    font-weight: bold;
+    width: 15%;
+    font-size: 18px;
+}
+.cla_2{
+    font-weight: bold;
+}
+a{
+    color: dodgerblue;
+    text-decoration: underline;
+}
+.blank{
+    height: 10px;/*用tr设置空行，必须要设置height才有用*/
+}
+
