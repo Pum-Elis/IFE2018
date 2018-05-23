@@ -1,0 +1,77 @@
+
+.left_1{
+    width: 30%;
+    height: 200px;
+    background-color: brown;
+    float: left;
+}
+.right_1{
+    width: 70%;
+    height: 200px;
+    background-color: blue;
+    float: left;
+}
+
+
+#layout_2{
+    padding-left:150px; 
+}
+.left_2{
+    width: 150px;
+    height: 200px;
+    background-color: brown;
+    float: left;
+    position: absolute;
+    left: 10px; /*空出外层的margin*/
+}
+.right_2{
+    width: 100%;
+    height: 200px;
+    background-color: blue;
+    /* float: left; */
+}
+
+.left_3{
+    width: 100%;
+    height: 200px;
+    background-color:brown;
+    /* margin-right: 150px; */
+    float: left;
+}
+.right_3{
+    clear: both;
+    width: 150px;
+    height: 200px;
+    background-color:blue;
+    float: left;
+    position: absolute;
+    right: 7px; 
+}
+
+#layout_4{
+    overflow: hidden;
+    padding: 0px 150px;
+}
+.main_4{
+    float: left;
+    width: 100%;
+    height: 200px;
+    background-color: darkmagenta;
+}
+.left_4{
+    width: 150px;
+    height: 200px;
+    float: left;
+    background-color: brown;
+    position: absolute;
+    left: 10px;
+    
+}
+.right_4{
+    width: 150px;
+    height: 200px;
+    float: left;
+    background-color: blue;
+    position: absolute;
+    right: 10px;
+}
