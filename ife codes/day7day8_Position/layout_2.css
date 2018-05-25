@@ -1,0 +1,148 @@
+body{
+    margin: 0px 0px;
+}
+#heading{
+    background-color: #333333;
+    height:80px ;
+    width: 100%;
+
+}
+/*logo的样式*/
+.logo{
+    font-size: 30px;
+    color:white;
+    float: left;
+    position: relative;
+    top: -10px;
+    left: 180px;
+}
+/*右上角样式*/
+.option{
+    float: right;
+    position: relative;
+    right: 150px;
+}
+a{
+    color:#ffffff;/*修改链接标签颜色为白色*/
+}
+
+
+#menu{
+    background-color: #66BB33;
+    height: 250px;
+    width: 100%;
+}
+/*右边的四个小方块*/
+.square{
+    position: relative;
+    top:150px;
+    right: 150px;
+    text-align: center;
+    line-height: 50px;
+}
+/*对1、3、4三个方块的样式*/
+.square_1{
+    height: 50px;
+    width: 30px;
+    border: 1px solid black;
+    float: right;
+    margin: 20px 5px 0px 5px;
+    background-color: rgba(255, 255,255, 0.4);
+}
+/*对2小方块的样式*/
+.square_2{
+    height: 70px;
+    width: 30px;
+    border: 1px solid black;
+    float: right;
+    margin: 0px 5px 0px 5px;
+    background-color:rgba(255, 255, 255, 0.7);
+    line-height: 90px;
+}
+
+/*主体部分*/
+#container{
+    height: 600px;
+    width: 100%;
+    margin: 0px 0px;
+}
+/*导航栏*/
+.navigation{
+    height: 80px;
+    width: 100%;
+    border-bottom: 1px solid #999999;
+}
+/*HOME的样式*/
+.navigation_1{
+    float: left;
+    position: relative;
+    top:29px;/*保证后面加下边框时和外层的边框线重叠*/
+    left:180px;
+    height: 50px;
+    width: 100px;
+    text-align: center;/*实现居中*/
+    line-height: 50px;
+    border: 1px solid #999999;
+    border-bottom: 1px solid white;/*覆盖原有边框线*/
+    border-top-left-radius: 15px;/*圆角*/
+    border-top-right-radius: 15px;
+}
+/*PROFILE和ABOUT的样式*/
+.navigation_2{
+    float: left;
+    position: relative;
+    top:30px;
+    left: 180px;
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    line-height: 50px;
+    background-color: rgba(204,204,204,0.5);/*设置不透明度看起来更好一些*/
+    border: 1px solid #999999;
+    border-bottom: none;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.content{
+    height: 530px;
+    margin: 5px 140px 5px 170px;
+}
+.detail_1{
+    width: 30%;
+    height: 160px;
+    float: left;
+    border: 1px solid #999999;
+    margin: 5px 10px;
+    text-align: center;
+    line-height: 160px;
+}
+.detail_2{
+    width: 22%;
+    height: 160px;
+    float: left;
+    border: 1px solid #999999;
+    margin: 5px 10px;
+    text-align: center;
+    line-height: 160px;
+}
+.detail_3{
+    width: 30%;
+    height: 160px;
+    float: left;
+    border: 1px solid #999999;
+    margin: 5px 10px;
+    text-align: center;
+    line-height: 160px;
+}
+
+#footer{
+    background-color: #666666;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+}
+
+
