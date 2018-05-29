@@ -1,0 +1,7 @@
+[Sun May 27 2018 15:20:45 GMT+0800 (中国标准时间)] layer "denis@getcraftwork.com": Unsupported extension: com
+[Sun May 27 2018 15:20:45 GMT+0800 (中国标准时间)] layer "China is speeding up strategic plan, standards, traffic rules, ": Expected end of input but "," found.
+[Sun May 27 2018 15:20:45 GMT+0800 (中国标准时间)] layer "youname@mail.com": Unsupported extension: com
+[Sun May 27 2018 15:24:49 GMT+0800 (中国标准时间)] layer "Background.png": Duplicate path: Background.png
+[Sun May 27 2018 15:30:09 GMT+0800 (中国标准时间)] layer "Background.png": Duplicate path: Background.png
+[Sun May 27 2018 15:32:37 GMT+0800 (中国标准时间)] layer "Photo.png": Duplicate path: Photo.png
+[Sun May 27 2018 15:33:38 GMT+0800 (中国标准时间)] layer "Background.png": Duplicate path: Background.png

@@ -1,0 +1,95 @@
+body{
+    margin: 0px;
+}
+#page_1{
+    width: 1600px;
+    height: 992px;
+    background-image: url(./images/前端学院设计图-assets/Background.png);
+}
+.hw{
+    font-family: "Montserrat";
+    width: 370px;
+    position: relative;
+    top:205px;
+    color: white;
+    font-size: 62px;
+    margin: 0 auto;
+}
+.text{
+    width: 1000px;
+    height: 80px;
+    position: relative;
+    top:279px;/*本身位置应该是416，但因为是相对位置，所以减去hello world的大小 */
+    color:rgba(255, 255,255, 0.302);/*设置不透明度是为了让当前字体看起来没那么明亮*/
+    font-size: 20px;
+    text-align: center;/*字体居中*/
+    margin: 0 auto;/*整体居中 */
+}
+.input_box{
+    width: 970px;
+    height: 250px;
+    border: 1px solid rgba(255, 255, 255, 0.302);
+    margin: 0 auto;
+    position: relative;
+    top:400px;
+}
+.input_text_1{
+    font-size: 25px;
+    font-family: Consolas;
+    text-align: center;
+    color: white;
+    padding:40px 0px 0px 0px;
+}
+.input_text_2{
+    font-size: 10px;
+    font-family:Consolas;
+    text-align: center;
+    color: rgba(255,255,255,0.302);
+}
+.signUp_box{
+    margin: 20px 0px;
+}
+.userName{
+    box-sizing: border-box;
+    width: 292px;
+    height: 50px;
+    border: 1px solid rgba(255,255,255,0.302);
+    position: relative;
+    top:20px;
+    left:100px;/*ps量的*/
+    font-size: 14px;
+    font-family:Consolas;/*查到的看起来比较相似的字体*/
+    text-align: left;
+    line-height: 50px;
+    color: white;
+    padding: 0px 0px 0px 15px;/*让字不会完全贴到边框*/
+}
+.passWord{
+    box-sizing: border-box;
+    width: 292px;
+    height: 50px;
+    border: 1px solid rgba(255,255,255,0.302);
+    position: relative;
+    top:-30px;
+    left:423px;
+    font-size: 14px;
+    font-family:Consolas;
+    text-align: left;
+    line-height: 50px;
+    color:rgba(255,255,255,0.302);
+    padding: 0px 0px 0px 15px;
+}
+.signUp{
+    box-sizing: border-box;
+    width: 125px;
+    height: 50px;
+    font-family: Consolas;
+    font-size: 12px;
+    color: black;
+    background-color: white;
+    text-align: center;
+    line-height: 50px;
+    position: relative;
+    left:745px;
+    top:-80px;
+}
