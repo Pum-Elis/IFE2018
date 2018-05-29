@@ -93,3 +93,109 @@ body{
     left:745px;
     top:-80px;
 }
+
+#page_2{
+    width: 1600px;
+    height: 710px;
+}
+.BOATLOADS_OF_AWESOME{
+    position: absolute;
+    left: 687.937px;
+    top: 1070.5px;
+    font-size: 14px;
+    font-family: Consolas;
+    color: rgb(20, 20, 20);
+    text-align: center;
+}
+.Ready_made{
+    font-family: Calibri;
+    font-size: 42px;
+    color: rgb(20, 20, 20);
+    line-height: 1.238;
+    text-align: center;
+    position: absolute;
+    left: 440.488px;
+    top: 1120px;
+    width: 657px;
+    height: 93px;
+}
+.Features_1 {
+    width: 1600px;
+    height: 6274px;
+    background-image: url(./images/前端学院设计图-assets/Features\ 1.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 292px;
+    top: 1300px;
+    width: 418px;
+    height: 87px;
+}
+.Features_2 {
+    width: 1600px;
+    height: 6274px;
+    background-image: url(./images/前端学院设计图-assets/Features\ 2.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 276px;
+    top: 1472px;
+    width: 418px;
+    height: 87px;
+}
+.Features_3 {
+    width: 1600px;
+    height: 6274px;
+    background-image: url(./images/前端学院设计图-assets/Features\ 3.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 886px;
+    top: 1300px;
+    width: 418px;
+    height: 87px;
+}
+.Features_4 {
+    width: 1600px;
+    height: 6274px;
+    background-image: url(./images/前端学院设计图-assets/Features\ 4.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 886px;
+    top: 1472px;
+    width: 418px;
+    height: 87px;
+}
+
+#page_3{
+    width: 1600px;
+    height: 798px;
+}
+.Supportive_policies{
+    height: 100%;
+    width: 1015px;
+    background-image: url(./images/前端学院设计图-assets/前端学院设计图_01.png);
+}
+.right_top{
+    height: 132px;
+    width: 585px;
+    background-image: url(./images/前端学院设计图-assets/前端学院设计图_02.png);
+    position: absolute;
+    left:1012px;
+    top:1701px;
+}
+.content{
+    height: 542px;
+    width: 585px;
+    background-image: url(./images/前端学院设计图-assets/前端学院设计图_03.png);
+    position: absolute;
+    left: 1012px;
+    top:1834px;
+}
+.right_bottom{
+    height: 123px;
+    width: 585px;
+    background-image: url(./images/前端学院设计图-assets/前端学院设计图_04.png);
+    position: absolute;
+    left:1012px;
+    top:2377px;
+}
+ 
+
