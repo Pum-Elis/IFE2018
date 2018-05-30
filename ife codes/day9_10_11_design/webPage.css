@@ -198,4 +198,69 @@ body{
     top:2377px;
 }
  
+#page_4{
+    box-sizing: border-box;
+    width: 1600px;
+    height: 600px;
+    border-bottom:1px solid gainsboro;
+}
+.Try_Our_Awesome_Products {
+    font-size: 42px;
+    color: rgb(20, 20, 20);
+    line-height: 1.238;
+    text-align: center;
+    position: absolute;
+    left: 461.515px;
+    top: 2600px;
+    width: 535px;
+    height: 41px;
+  }
+  .Logos {
+    position: absolute;
+    left: 220.637px; 
+    top: 2750.546px;
+}
+img{
+    margin: 0px 40px;
+    
+}
 
+#page_5{
+    width: 1600px;
+    height: 1000px;
+    border-bottom: 1px solid gainsboro;
+}
+.theTop{
+    width: 970px;
+    height: 350px;
+    position: relative;
+    left:246px;
+    top:120px;
+}
+.text_right{
+    float: right;
+    width: 265px;
+    height: 47px;
+    font-family: Conlas;
+    color: rgba(20, 20, 20, 0.702);
+}
+.theBottom{
+    width: 970px;
+    height: 350px;
+    position: relative;
+    left:300px;
+    top:220px;
+}
+.text_left{
+    width: 265px;
+    height: 47px;
+    font-family: Conlas;
+    float: left;
+    color: rgba(20, 20, 20, 0.702);
+}
+.picture_bird{
+    float: left;
+}
+
+
+  
