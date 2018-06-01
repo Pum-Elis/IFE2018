@@ -97,6 +97,8 @@ body{
 #page_2{
     width: 1600px;
     height: 710px;
+    box-sizing: border-box;
+    border-right: 1px solid gainsboro;
 }
 .BOATLOADS_OF_AWESOME{
     position: absolute;
@@ -167,6 +169,8 @@ body{
 #page_3{
     width: 1600px;
     height: 798px;
+    box-sizing: border-box;
+    border-right: 1px solid gainsboro;
 }
 .Supportive_policies{
     height: 100%;
@@ -203,6 +207,7 @@ body{
     width: 1600px;
     height: 600px;
     border-bottom:1px solid gainsboro;
+    border-right: 1px solid gainsboro;
 }
 .Try_Our_Awesome_Products {
     font-size: 42px;
@@ -229,6 +234,8 @@ img{
     width: 1600px;
     height: 1000px;
     border-bottom: 1px solid gainsboro;
+    box-sizing: border-box;
+    border-right: 1px solid gainsboro;
 }
 .theTop{
     width: 970px;
@@ -262,5 +269,118 @@ img{
     float: left;
 }
 
+#page_6{
+    width: 1600px;
+    height: 1083px;
+    box-sizing: border-box;
+    border-right: 1px solid gainsboro;
+    border-bottom: 1px solid gainsboro;
+}
+.OUR_AWESOME_CREW{
+    font-size: 42px;
+    color: rgb(20, 20, 20);
+    text-align: center;
+    padding: 120px 0px 30px 0px;
+}
+.Our_unique_online_teaching{
+    width: 695px;
+    height: 60px;
+    font-size: 18px;
+    color: rgba(20, 20, 20, 0.702);
+    text-align: center;
+    padding: 10px 0px;
+    margin: 0 auto;
+}
+.crew_pictures{
+    width: 1100px;
+    height: 752px;
+    margin: 0 auto;
+}
+.crew_pictures img{
+    margin: 20px;
+}
 
-  
+#page_7{
+    width: 1600px;
+    height:704px;
+    box-sizing: border-box;
+    border-right: 1px solid gainsboro;
+    border-bottom: 1px solid gainsboro;
+}
+.inputBox_left{
+    position: absolute;
+    left: 230px;
+    top: 5250px;
+}
+.information{
+    width:400px;
+    height: 563px;/*与输入框同高*/
+    position: absolute;
+    left: 912.932px;
+    top: 5330px;
+}
+.Contacts{
+    font-size: 42px;
+    color: rgb(20, 20, 20);
+}
+.detail{
+    font-size: 16px;
+    color: rgba(20, 20, 20, 0.702);
+    margin: 20px 0px 40px 0px;
+}
+.contact_information{
+    margin: 0px;
+    padding: 40px 0px 0px 0px;
+    position: relative;
+    left: -40px;
+}
+
+#page_8{
+    width: 1600px;
+    height:408px ;
+    box-sizing: border-box;
+    background-color: black;
+    
+}
+.Learn_More{
+    text-align: left;
+    line-height: 1.5;
+    position: absolute;
+    left: 214.937px;
+    top: 5943.5px;
+    color: rgba(255, 255, 255, 0.302);
+}
+.About_Us {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.302);
+    line-height: 1.5;
+    text-align: left;
+    position: absolute;
+    left: 513.937px;
+    top: 5943.5px;
+  }
+.Support{
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: left;
+    position: absolute;
+    left: 814.134px;
+    top: 5943.5px;
+    color: rgba(255, 255, 255, 0.302);
+  }
+.Enjoy_Your_Life{
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.302);
+    line-height: 1.5;
+    text-align: left;
+    position: absolute;
+    left:1111px;
+    top: 5943.5px;
+  }
+  .Enjoy_Your_Life img{
+      position: relative;
+      left:-40px;
+  }
+  .title{
+    color: white;
+}
