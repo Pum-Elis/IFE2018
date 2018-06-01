@@ -1,0 +1,43 @@
+html{
+    height: 100%;
+}
+body{
+    margin: 0px;
+    height: 100%;
+}
+
+#navigation_left{
+    box-sizing: border-box;
+    width: 100px;
+    height: 100%;
+    background-color: #1D2531;
+    float: left;
+}
+.items{
+    text-align: center;
+    position: relative;
+    top:20px;
+}
+.items img{
+    margin: 10px 0px;
+}
+.bottom_actions{
+    text-align: center;
+    position: relative;
+    top:60%;
+}
+
+#navigation_right{
+    box-sizing: border-box;
+    width: 250px;
+    height: 100%;
+    background-color: #222C3C;
+    float: left;
+}
+
+#main{
+    box-sizing: border-box;
+    margin-left: 350px;
+    height: 100%;
+    background-color:blueviolet;
+}
