@@ -14,18 +14,22 @@ body{
     float: left;
 }
 .items{
-    text-align: center;
-    position: relative;
-    top:20px;
+    position: absolute;/*绝对定位使图标自适应*/
+    top:1%;
+    left:20px;/*基本居中 */
 }
 .items img{
+    clear: both;
+    float: left;/*浮动来实现排成列*/
     margin: 10px 0px;
 }
 .bottom_actions{
-    text-align: center;
-    position: relative;
-    top:60%;
+    /* text-align: center; 使用绝对定位后text-align失效*/ 
+    position: absolute;
+    bottom: 2%;
+    left: 25px;
 }
+
 
 #navigation_right{
     box-sizing: border-box;
@@ -34,10 +38,68 @@ body{
     background-color: #222C3C;
     float: left;
 }
+.part_1{
+    /*使用relative而不是absolute的原因是避免浏览器缩放时被覆盖*/
+    position: relative;
+    top:2%;
+    left: 25px;
+}
+.part_2{
+    position: relative;
+    top:2%;
+    left: 25px;
+}
+.part_3{
+    position: relative;
+    top:2%;
+    left: -10px;
+}
+.part_4{
+    position: absolute;
+    bottom:2%;
+    left: 125px;
+}
 
-#main{
-    box-sizing: border-box;
+#main{/*白色主体部分*/
     margin-left: 350px;
     height: 100%;
-    background-color:blueviolet;
+    /* background-color:blueviolet; */
 }
+.Messages{
+    height: 8%;
+    border-bottom: 1px solid  rgb(127, 143, 164);
+}
+.message{/*“Messages”字体的相关信息*/
+    width: 120px;
+    font-size: 24px;
+    color: rgb(53, 64, 82);
+    position: relative;
+    top:25%;
+    left: 30px;
+}
+.profile{/*右上角个人信息*/
+    position: absolute;
+    top:20px;
+    right: 3%;
+}
+.box{
+    height: 92%;
+    box-sizing: border-box;
+}
+.contact_list{
+    box-sizing: border-box;
+    float: left;
+    width: 30%;
+    height: 100%;
+    /* background-color: coral; */
+    border-right: 1px solid rgba(127,143,164);
+}
+.main_content{
+    box-sizing: border-box;
+    float: left;
+    width: 70%;
+    height: 100%;
+    border-left: 1px solid rgba(127,143,164);
+    /* background-color:black; */
+}
+  
