@@ -37,6 +37,8 @@ body{
     height: 100%;
     background-color: #222C3C;
     float: left;
+    overflow-x:hidden;/*去掉横向滚动条*/
+
 }
 .part_1{
     /*使用relative而不是absolute的原因是避免浏览器缩放时被覆盖*/
@@ -66,7 +68,7 @@ body{
     /* background-color:blueviolet; */
 }
 .Messages{
-    height: 8%;
+    height: 80px;
     border-bottom: 1px solid  rgb(127, 143, 164);
 }
 .message{/*“Messages”字体的相关信息*/
@@ -82,24 +84,57 @@ body{
     top:20px;
     right: 3%;
 }
-.box{
-    height: 92%;
+
+
+#box{
+    position: absolute;
+    top:80px;
+    bottom: 0;
     box-sizing: border-box;
 }
 .contact_list{
     box-sizing: border-box;
     float: left;
-    width: 30%;
+    width: 400px;
     height: 100%;
     /* background-color: coral; */
-    border-right: 1px solid rgba(127,143,164);
+    border-right: 1px solid rgb(127, 143, 164);
+    overflow-x: hidden;/*隐藏横向滚动条*/
 }
+.search{/*搜索框*/
+    box-sizing: border-box;
+    height: 64px;
+    border-bottom: 1px solid rgb(127, 143, 164);
+    text-align: center;
+}
+.search img{
+    position: relative;
+    top:15px;
+}
+
+
 .main_content{
     box-sizing: border-box;
-    float: left;
-    width: 70%;
+    /* width: 100%; */
+    padding-left: 400px;  
     height: 100%;
-    border-left: 1px solid rgba(127,143,164);
-    /* background-color:black; */
+    /* background-color: black; */
 }
+.tools{
+    float: left;
+    box-sizing: border-box;
+    height:64px;
+    width: 100%;
+    border-bottom: 1px solid rgb(127, 143, 164);
+}
+/* .Profile_name{
+    position: relative;
+    top:10px;
+    left: 20px;
+} 
+.tool_icon{
+    
+} */
+
+
   
