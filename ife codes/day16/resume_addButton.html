@@ -6,8 +6,8 @@
     <title>简历</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="resume_addButton_style.css" />
-    <script type="text/JavaScript">
-        document.getElementById("surprise").onclick = function(){
+    <script type="text/javascript">
+        function surprise_fun(){
             alert("假装是惊喜233333");
         }
     </script>
@@ -30,7 +30,7 @@
                     <td class="cla_2">前端工程师</td>                   
                 </tr>
             </table>
-            <button id="surprise">点击我看看有什么惊喜！</button>
+            <button type="button" id="surprise" onclick="surprise_fun()" >点击我看看有什么惊喜！</button>
         </div>
         
         <br/>
